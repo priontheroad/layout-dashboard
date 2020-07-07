@@ -1,12 +1,13 @@
 *{
     margin:0px;
+    padding:0px;
     font-family: sans-serif;
 }
 
 .menu {
-    background: #778899;
+    background: #2a3f54;
     float: left;
-    padding: 8px;
+    padding: 4px;
     width: 100px;
     text-align:center;
     min-height: 100vh;
@@ -19,5 +20,43 @@ img.logo-painel{
 
 }
 .list-menu{
+    float: left;
+    width: 100%;
+    margin-top: 26px;
+
+}
+
+ul.menu-lista{
+    list-style: none;
+
+}
+ul.menu-lista li{
+
+}
+ul.menu-lista li a{
+    font-size: 1em;
+    margin: 14px 0px;
+    float: left;
+    width:100%;
+    color:#fff;
+
+}
+ul.menu-lista li a i{
+    font-size: 1em;
+    display:block;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.content {
+    float: left;
+    background: #ededed;
+    min-height: 100vh;
+    width:calc(100% - 85px);
+    text-align: center;
+}
+
+.top-dashboard{
 
 }

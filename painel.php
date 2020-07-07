@@ -15,14 +15,43 @@
         <img src="image/logo.png" alt="logo" class="logo-painel">
     </div>
     <div class="list-menu">
-        <ul>
+        <ul class="menu-lista">
             <li>
-                <a href="">Home</a>
+                <a href=""> <i class="fa fa-home" style="color: #fff" aria-hidden="true"></i>Home</a>
+            </li>
+            <li>
+                <a href=""> <i class="fa fa-home" style="color: #fff" aria-hidden="true"></i>Home</a>
+            </li>
+            <li>
+                <a href=""> <i class="fa fa-home" style="color: #fff" aria-hidden="true"></i>Home</a>
             </li>
         </ul>
 
     </div>
-</section>
+</section><!--Fim menu-->
+<section class="content">
+    <div class="top-dashboard">
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button">
+                <img src="./image/profile.jpg" alt="">
+                <p class="user-name">Usuário</p>
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="">Perfil</a></li>
+                <li><a href=""Sair></a></li>
+            </ul>
+        </div>
+    </div>
+</section><!--Fim content-->
+
+<!--jQuery-->
+<script src="./plugins/jquery/jquery.min.js"></script>
+
+<!--Bootstrap-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 </body>
 </html>
