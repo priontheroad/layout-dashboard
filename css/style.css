@@ -51,12 +51,31 @@ a {
 }
 .content {
     float: left;
-    background: #ededed;
+    background: #ffffff;
     min-height: 100vh;
-    width:calc(100% - 85px);
+    width:calc(100% - 100px);
     text-align: center;
 }
 
 .top-dashboard{
+    width: 100%;
+    float: left;
+    background: #ededed;
+    padding: 4px;
 
+}
+
+img.user-dashboard{
+    width: 50px;
+    height: 50px;
+}
+
+.user-name{
+
+}
+.dp-menu{
+
+}
+.user-dash{
+    float: right;
 }

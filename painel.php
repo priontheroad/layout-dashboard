@@ -31,15 +31,15 @@
 </section><!--Fim menu-->
 <section class="content">
     <div class="top-dashboard">
-        <div class="dropdown">
-            <button class="btn btn-default dropdown-toggle" type="button">
-                <img src="./image/profile.jpg" alt="">
+        <div class="user-dash dropdown">
+            <button class="dropdown-toggle" data-toggle="dropdown" >
+                <img class="user-dashboard rounded-circle" src="./image/profile.jpg" alt="">
                 <p class="user-name">Usuário</p>
                 <span class="caret"></span>
             </button>
-            <ul class="dropdown-menu">
-                <li><a href="">Perfil</a></li>
-                <li><a href=""Sair></a></li>
+            <ul class="dropdown-menu dp-menu">
+                <li><a class="dropdown-item" href="#">Perfil</a></li>
+                <li><a class="dropdown-item" href="#">Sair</a></li>
             </ul>
         </div>
     </div>
