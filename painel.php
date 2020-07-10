@@ -56,10 +56,11 @@
             <div class="rel-dash col-md-3">
                 <i class="fa fa-bar-chart" aria-hidden="true"></i>
                 <div class="text-rel">
+
+                    <h3 class="result-ds">Total de usuarios</h3>
                     <h2 class="result">
                         123
                     </h2>
-                    <h3 class="result-ds">Total de usuarios</h3>
                 </div>
             </div> <?php }?>
 

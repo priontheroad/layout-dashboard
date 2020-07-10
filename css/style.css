@@ -128,6 +128,7 @@ h1.title-pg{
      font-size:1.4em;
      float: left;
      background: aqua;
+     padding: 25px;
 
  }
 
@@ -141,7 +142,7 @@ h1.title-pg{
 }
 
 .result{
-    font-size: 15px;
+    font-size: 0.6em;
 }
 
 .content-din{
