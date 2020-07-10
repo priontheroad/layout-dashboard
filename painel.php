@@ -32,17 +32,40 @@
 <section class="content">
     <div class="top-dashboard">
         <div class="user-dash dropdown">
-            <button class="dropdown-toggle" data-toggle="dropdown" >
+            <div class="dropdown-toggle" data-toggle="dropdown" >
                 <img class="user-dashboard rounded-circle" src="./image/profile.jpg" alt="">
                 <p class="user-name">Usuário</p>
                 <span class="caret"></span>
-            </button>
+            </div>
             <ul class="dropdown-menu dp-menu">
                 <li><a class="dropdown-item" href="#">Perfil</a></li>
                 <li><a class="dropdown-item" href="#">Sair</a></li>
             </ul>
         </div>
-    </div>
+    </div> <!--Top dashboard-->
+
+    <div class="content-ds">
+        <div class="bred">
+            <a href="" class="bred">Home ></a> <a href="" class="bred">Dashboard</a>
+        </div>
+        <div class="title-pg">
+            <h1 class="title-pg">Dashboard</h1>
+        </div>
+        <div class="content-din">
+            <?php for($i = 1; $i <= 6; $i++) { ?>
+            <div class="rel-dash col-md-3">
+                <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                <div class="text-rel">
+                    <h2 class="result">
+                        123
+                    </h2>
+                    <h3 class="result-ds">Total de usuarios</h3>
+                </div>
+            </div> <?php }?>
+
+        </div>
+
+    </div> <!--Content-ds-->
 </section><!--Fim content-->
 
 <!--jQuery-->

@@ -51,7 +51,7 @@ a {
 }
 .content {
     float: left;
-    background: #ffffff;
+    background: #e2e2e2;
     min-height: 100vh;
     width:calc(100% - 100px);
     text-align: center;
@@ -60,17 +60,21 @@ a {
 .top-dashboard{
     width: 100%;
     float: left;
-    background: #ededed;
+    background: #87CEEB;
     padding: 4px;
 
 }
 
 img.user-dashboard{
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    float: left;
+    padding: 5px;
 }
 
 .user-name{
+    float: left;
+    margin: 12px 10px;
+    font-weight: bold;
 
 }
 .dp-menu{
@@ -78,4 +82,71 @@ img.user-dashboard{
 }
 .user-dash{
     float: right;
+    cursor:pointer;
+}
+.user-dash span.caret{
+    margin: 12px 10px;
+
+}
+
+.content-ds{
+
+}
+.title-pg{
+
+}
+h1.title-pg{
+    font-size: 2em;
+    margin: 6px 10px;
+    float: left;
+}
+
+.content-din{
+
+}
+.bred{
+    padding: 10px;
+    float: left;
+    width: 100%;
+}
+ a.bred{
+     float: left;
+     width:initial;
+     color: #2a3f54;
+ }
+
+ .rel-dash{
+     background: #fff;
+     padding: 0px;
+     float: left;
+     font-size: 3em;
+     margin: 30px;
+
+ }
+
+ .rel-dash i{
+     font-size:1.4em;
+     float: left;
+     background: aqua;
+
+ }
+
+ .text-rel {
+     float:left;
+ }
+
+.result-ds{
+    font-size: 0.4em;
+    margin: 10px;
+}
+
+.result{
+    font-size: 15px;
+}
+
+.content-din{
+    float: left;
+    width: 100%;
+    padding:10px;
+
 }
