@@ -30,7 +30,7 @@
             </div>
         </div>
 
-        <button class="btn btn-primary" type="submit">Cadastrar</button>
+        <button class="btn btn-primary posicao-botaocad" type="submit">Cadastrar</button>
     </form>
 
 </div><!--Content din-->

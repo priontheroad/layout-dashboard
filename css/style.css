@@ -210,3 +210,7 @@ h1.title-pg{
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
+
+.posicao-botaocad{
+    float: left;
+}
