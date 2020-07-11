@@ -1,3 +1,8 @@
+
+<div class="bred">
+    <a href="?pag=home" class="bred">Home &nbsp;></a> <a href="?pag=listas" class="bred">Lista de profissionais</a>
+</div>
+
 <div class="title-pg">
     <h1 class="title-pg">Lista de profissionais</h1>
 </div>
@@ -12,7 +17,7 @@
     </div>
 
     <div class="class-btn-insert">
-        <a href="" class=" btn-insert">
+        <a href="?pag=cadastro" class=" btn-insert">
             <span>
                 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-clipboard-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>

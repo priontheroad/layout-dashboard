@@ -8,7 +8,7 @@
 
     <meta charset="utf-8">
 
-    <title>Layout dashboard</title>
+    <title>Schedule</title>
 </head>
 <body>
 
@@ -50,9 +50,7 @@
     </div> <!--Top dashboard-->
 
     <div class="content-ds">
-        <div class="bred">
-            <a href="" class="bred">Home ></a> <a href="" class="bred">Dashboard</a>
-        </div>
+
         <?php
             if(!isset($_GET['pag']))
                 include 'pages/home.php';

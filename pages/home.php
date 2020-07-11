@@ -1,8 +1,11 @@
-
+<div class="bred">
+    <a href="?pag=home" class="bred">Home </a>
+</div>
 <div class="title-pg">
     <h1 class="title-pg">Dashboard</h1>
 </div>
 <div class="content-din ">
+
     <?php for($i = 1; $i <= 6; $i++) { ?>
         <div class="rel-dash col-md-3 col-sm-12 col-xm-12">
             <i class="fa fa-bar-chart" aria-hidden="true"></i>

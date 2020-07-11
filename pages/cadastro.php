@@ -1,4 +1,6 @@
-
+<div class="bred">
+    <a href="?pag=home" class="bred">Home &nbsp; ></a> <a href="?pag=listas" class="bred">Lista de profissionais &nbsp;></a> <a href="?pag=cadastro" class="bred">Cadastro</a>
+</div>
 <div class="title-pg">
     <h1 class="title-pg">Cadastro</h1>
 </div>
