@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./plugins/font-awesome/css/font-awesome.min.css">
 
-
     <title>Layout dashboard</title>
 </head>
 <body>
