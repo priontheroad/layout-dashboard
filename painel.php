@@ -16,10 +16,10 @@
     <div class="list-menu">
         <ul class="menu-lista">
             <li>
-                <a href=""> <i class="fa fa-home" style="color: #fff" aria-hidden="true"></i>Home</a>
+                <a href="?pag=home"> <i class="fa fa-home" style="color: #fff" aria-hidden="true"></i>Home</a>
             </li>
             <li>
-                <a href=""> <i class="fa fa-list-alt" aria-hidden="true"></i>Listagem</a>
+                <a href="?pag=listas"> <i class="fa fa-list-alt" aria-hidden="true"></i>Listagem</a>
             </li>
             <li>
                 <a href=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Cadastro</a>

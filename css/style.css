@@ -183,5 +183,24 @@ h1.title-pg{
     margin: 0px;
     color:#fff;
     text-decoration: none;
+}
 
+.class-btn-insert{
+
+}
+
+.btn-insert{
+    background: #6959CD;
+    padding: 10px 12px;
+    float: left;
+    margin: 10px 0px;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.btn-insert:hover{
+    text-decoration: none;
+    color: #cccccc;
+    opacity: 0.9;
 }
