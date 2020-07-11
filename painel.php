@@ -19,10 +19,10 @@
                 <a href=""> <i class="fa fa-home" style="color: #fff" aria-hidden="true"></i>Home</a>
             </li>
             <li>
-                <a href=""> <i class="fa fa-home" style="color: #fff" aria-hidden="true"></i>Home</a>
+                <a href=""> <i class="fa fa-list-alt" aria-hidden="true"></i>Listagem</a>
             </li>
             <li>
-                <a href=""> <i class="fa fa-home" style="color: #fff" aria-hidden="true"></i>Home</a>
+                <a href=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Cadastro</a>
             </li>
         </ul>
 
@@ -55,8 +55,6 @@
             else
                 include 'pages/404.php';
         ?>
-
-
     </div> <!--Content-ds-->
 </section><!--Fim content-->
 

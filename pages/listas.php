@@ -3,12 +3,19 @@
 </div>
 <div class="content-din bg-white">
 
+    <div class="form-search">
+        <form action="" class="form form-inline form-group">
+            <input type="text" class="form-control col-6" name="nome" placeholder="Nome">
+            <input type="text" class="form-control col-4" name="email" placeholder="Email">
+            <button class="btn btn-success">Pesquisar</button>
+        </form>
+    </div>
     <table class="table table-striped">
         <tr>
             <td>Nome</td>
             <td>Email</td>
             <td>Telefone</td>
-            <th width="100">Ação</th>
+            <th width="200">Ação</th>
         </tr>
         <?php
         for($i = 1; $i <=4; $i++){

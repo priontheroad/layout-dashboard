@@ -5,12 +5,13 @@
 }
 
 .menu {
-    background: #2a3f54;
+    background: #000080	;
     float: left;
     padding: 4px;
     width: 100px;
     text-align:center;
     min-height: 100vh;
+    height: 100%;
 
 }
 
@@ -60,7 +61,7 @@ a {
 .top-dashboard{
     width: 100%;
     float: left;
-    background: #87CEEB;
+    background: #6959CD	;
     padding: 4px;
 
 }
@@ -127,7 +128,7 @@ h1.title-pg{
  .rel-dash i{
      font-size:1.4em;
      float: left;
-     background: aqua;
+     background: #6959CD	;
      padding: 25px;
 
  }
@@ -152,4 +153,35 @@ h1.title-pg{
 }
 
 .bg-white{
+}
+
+.form-search{
+    padding:20px;
+
+}
+
+.form-search form{
+    padding: 10px;
+
+}
+
+.form-search form input{
+    margin: 10px;
+}
+
+.editar{
+    background: #ccc;
+    padding: 6px 10px;
+    margin: 0px;
+    color:#fff;
+    text-decoration: none;
+}
+
+.apagar{
+    background: red;
+    padding: 6px 10px;
+    margin: 0px;
+    color:#fff;
+    text-decoration: none;
+
 }
