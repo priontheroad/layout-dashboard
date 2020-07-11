@@ -69,6 +69,4 @@
             </li>
         </ul>
     </nav>
-
-
 </div><!--Content din-->
