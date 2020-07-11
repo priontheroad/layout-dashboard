@@ -101,9 +101,8 @@ h1.title-pg{
     float: left;
 }
 
-.content-din{
 
-}
+
 .bred{
     padding: 10px;
     float: left;
@@ -150,5 +149,7 @@ h1.title-pg{
     float: left;
     width: 100%;
     padding:10px;
+}
 
+.bg-white{
 }
