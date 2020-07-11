@@ -13,10 +13,10 @@
     min-height: 100vh;
 
 }
-.logo{
 
-}
 img.logo-painel{
+    width: 90px;
+    height:90px;
 
 }
 .list-menu{
