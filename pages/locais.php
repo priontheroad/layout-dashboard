@@ -1,5 +1,5 @@
 <div class="title-pg">
-    <h1 class="title-pg">Lista de profissionais</h1>
+    <h1 class="title-pg">Lista de locais</h1>
 </div>
 <div class="content-din bg-white">
 
@@ -25,23 +25,24 @@
 
     <table class="table table-striped">
         <tr>
-            <td>Nome</td>
-            <td>Email</td>
+            <td>Local</td>
+            <td>Endereço
+            </td>
             <td>Telefone</td>
             <th width="200">Ação</th>
         </tr>
         <?php
         for($i = 1; $i <=4; $i++){
-        ?>
-        <tr>
-            <td>Nome completo</td>
-            <td>Email</td>
-            <td>Telefone</td>
-            <td>
-                <a href="" color="Black" class="editar">Editar</a>
-                <a href="" class="apagar">Apagar</a>
-            </td>
-        </tr>
+            ?>
+            <tr>
+                <td>Local</td>
+                <td>Endereço</td>
+                <td>Telefone</td>
+                <td>
+                    <a href="" color="Black" class="editar">Editar</a>
+                    <a href="" class="apagar">Apagar</a>
+                </td>
+            </tr>
         <?php }?>
     </table>
 

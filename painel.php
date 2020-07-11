@@ -3,7 +3,10 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./plugins/font-awesome/css/font-awesome.min.css">
+
+    <meta charset="utf-8">
 
     <title>Layout dashboard</title>
 </head>
@@ -19,10 +22,13 @@
                 <a href="?pag=home"> <i class="fa fa-home" style="color: #fff" aria-hidden="true"></i>Home</a>
             </li>
             <li>
-                <a href="?pag=listas"> <i class="fa fa-list-alt" aria-hidden="true"></i>Listagem</a>
+                <a href="?pag=listas"> <i class="fa fa-list-alt" aria-hidden="true"></i>Profissionais</a>
             </li>
             <li>
-                <a href=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Cadastro</a>
+                <a href="?pag=locais"><i class="fa fa-ambulance" aria-hidden="true"></i>Locais</a>
+            </li>
+            <li>
+                <a href="?pag=cadastro"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Cadastro</a>
             </li>
         </ul>
 
@@ -37,7 +43,7 @@
                 <span class="caret"></span>
             </div>
             <ul class="dropdown-menu dp-menu">
-                <li><a class="dropdown-item" href="#">Perfil</a></li>
+                <li><a class="dropdown-item" href="?pag=perfil">Perfil</a></li>
                 <li><a class="dropdown-item" href="#">Sair</a></li>
             </ul>
         </div>
