@@ -1,3 +1,7 @@
+<div class="bred">
+    <a href="?pag=home" class="bred">Home &nbsp;></a> <a href="?pag=locais" class="bred">Locais</a>
+</div>
+
 <div class="title-pg">
     <h1 class="title-pg">Lista de locais</h1>
 </div>
