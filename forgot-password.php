@@ -18,7 +18,6 @@
 
     <form action="" class="form-login ">
         <input  type="text" name="email" placeholder="Email" required>
-        <input  type="password" name="senha" placeholder="Senha" required>
 
         <button class="btn btn-login">Recuperar senha</button>
         <a href="index.php" class="rec-pass">Realizar login</a>
