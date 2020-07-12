@@ -21,7 +21,7 @@
             <input  type="password" name="senha" placeholder="Senha" required>
 
             <button class="btn btn-login">Acessar</button>
-            <a href="" class="rec-pass">Esqueci a senha</a>
+            <a href="forgot-password.php" class="rec-pass">Esqueci a senha</a>
 
         </form>
     </section>
