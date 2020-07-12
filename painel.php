@@ -44,7 +44,7 @@
             </div>
             <ul class="dropdown-menu dp-menu">
                 <li><a class="dropdown-item" href="?pag=perfil">Perfil</a></li>
-                <li><a class="dropdown-item" href="#">Sair</a></li>
+                <li><a class="dropdown-item" href="index.php">Sair</a></li>
             </ul>
         </div>
     </div> <!--Top dashboard-->
