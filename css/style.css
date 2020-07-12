@@ -12,7 +12,7 @@ body, html {
     background: #000080	;
     float: left;
     padding: 4px;
-    width: 100px;
+    width: 110px;
     text-align:center;
     min-height: 100vh;
     height: 100vh;
@@ -58,7 +58,7 @@ a {
     float: left;
     background: #e2e2e2;
     min-height: 100vh;
-    width:calc(100% - 100px);
+    width:calc(100% - 110px);
     text-align: center;
 }
 
@@ -125,7 +125,10 @@ h1.title-pg{
      float: left;
      font-size: 3em;
      margin: 30px;
-     border-radius: 6px;
+     border-radius: 10px;
+     border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px;
+     box-shadow: 1px 1px 1px #ccc;
 
  }
 
@@ -144,6 +147,7 @@ h1.title-pg{
 .result-ds{
     font-size: 0.4em;
     margin: 10px;
+
 }
 
 .result{

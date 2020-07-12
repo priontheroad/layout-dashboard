@@ -8,7 +8,7 @@
 
     <?php for($i = 1; $i <= 6; $i++) { ?>
         <div class="rel-dash col-md-3 col-sm-12 col-xm-12">
-            <i class="fa fa-bar-chart" aria-hidden="true"></i>
+            <i class="fa fa-bar-chart" style="border-radius:100% ;" aria-hidden="true"></i>
             <div class="text-rel">
 
                 <h3 class="result-ds">Total de usuarios</h3>
